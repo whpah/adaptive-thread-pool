@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: adaptive-thread-pool-test-app
+  profiles:
+    active: dev
