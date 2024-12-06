@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cced9fca-85d3-4167-9321-ab57a42bf6a4" name="Changes" comment="feat:搭建基础模块">
-      <change afterPath="$PROJECT_DIR$/adaptive-thread-pool-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptive-thread-pool-test/src/main/java/com/whp/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="cced9fca-85d3-4167-9321-ab57a42bf6a4" name="Changes" comment="feat:线程池数据上报">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/src/main/java/com/adaptive/thread/pool/sdk/config/AdaptiveThreadPoolAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/src/main/java/com/adaptive/thread/pool/sdk/config/AdaptiveThreadPoolAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +132,9 @@
       <workItem from="1733361938095" duration="181000" />
       <workItem from="1733362127520" duration="134000" />
       <workItem from="1733362273912" duration="9641000" />
-      <workItem from="1733386554351" duration="5439000" />
+      <workItem from="1733386554351" duration="5774000" />
+      <workItem from="1733447637751" duration="3867000" />
+      <workItem from="1733456584007" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <option name="closed" value="true" />
@@ -172,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733297247008</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat:采集线程池配置数据">
+      <option name="closed" value="true" />
+      <created>1733392081614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733392081614</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,14 +208,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
     <MESSAGE value="fead:搭建基础模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="fead:搭建基础模块" />
+    <MESSAGE value="feat:采集线程池配置数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:采集线程池配置数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/adaptive-thread-pool-spring-boot-starter/src/main/java/com/adaptive/thread/pool/sdk/config/AdaptiveThreadPoolAutoConfig.java</url>
-          <line>27</line>
+          <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
